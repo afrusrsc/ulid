@@ -115,10 +115,7 @@ const
 
   ULIDSize = 16; //ULID大小
   ULIDLen = 26;  //ULID编码后长度
-  TimeSize = 6;  //时间戳部分的大小
-  TimeLen = 10;  //时间戳部分编码后长度
   RandSize = 10; //随机数部分的大小
-  RnadLen = 16;  //随机数部分编码后长度
 
   //解码表
   DecodeTable: array[0..$FF] of byte = (
